@@ -1,0 +1,34 @@
+C:\Users\elija\OneDrive\Desktop\Coding Projects\TestProj\bin\Debug\net7.0\TestProj.exe
+C:\Users\elija\OneDrive\Desktop\Coding Projects\TestProj\bin\Debug\net7.0\TestProj.deps.json
+C:\Users\elija\OneDrive\Desktop\Coding Projects\TestProj\bin\Debug\net7.0\TestProj.runtimeconfig.json
+C:\Users\elija\OneDrive\Desktop\Coding Projects\TestProj\bin\Debug\net7.0\TestProj.dll
+C:\Users\elija\OneDrive\Desktop\Coding Projects\TestProj\bin\Debug\net7.0\TestProj.pdb
+C:\Users\elija\OneDrive\Desktop\Coding Projects\TestProj\obj\Debug\net7.0\TestProj.csproj.AssemblyReference.cache
+C:\Users\elija\OneDrive\Desktop\Coding Projects\TestProj\obj\Debug\net7.0\TestProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elija\OneDrive\Desktop\Coding Projects\TestProj\obj\Debug\net7.0\TestProj.AssemblyInfoInputs.cache
+C:\Users\elija\OneDrive\Desktop\Coding Projects\TestProj\obj\Debug\net7.0\TestProj.AssemblyInfo.cs
+C:\Users\elija\OneDrive\Desktop\Coding Projects\TestProj\obj\Debug\net7.0\TestProj.csproj.CoreCompileInputs.cache
+C:\Users\elija\OneDrive\Desktop\Coding Projects\TestProj\obj\Debug\net7.0\TestProj.csproj.CopyComplete
+C:\Users\elija\OneDrive\Desktop\Coding Projects\TestProj\obj\Debug\net7.0\TestProj.dll
+C:\Users\elija\OneDrive\Desktop\Coding Projects\TestProj\obj\Debug\net7.0\refint\TestProj.dll
+C:\Users\elija\OneDrive\Desktop\Coding Projects\TestProj\obj\Debug\net7.0\TestProj.pdb
+C:\Users\elija\OneDrive\Desktop\Coding Projects\TestProj\obj\Debug\net7.0\TestProj.genruntimeconfig.cache
+C:\Users\elija\OneDrive\Desktop\Coding Projects\TestProj\obj\Debug\net7.0\ref\TestProj.dll
+C:\Users\elija\OneDrive\Desktop\Coding Projects\TestProj\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\elija\OneDrive\Desktop\Coding Projects\Dungeon Crawler\bin\Debug\net7.0\TestProj.exe
+C:\Users\elija\OneDrive\Desktop\Coding Projects\Dungeon Crawler\bin\Debug\net7.0\TestProj.deps.json
+C:\Users\elija\OneDrive\Desktop\Coding Projects\Dungeon Crawler\bin\Debug\net7.0\TestProj.runtimeconfig.json
+C:\Users\elija\OneDrive\Desktop\Coding Projects\Dungeon Crawler\bin\Debug\net7.0\TestProj.dll
+C:\Users\elija\OneDrive\Desktop\Coding Projects\Dungeon Crawler\bin\Debug\net7.0\TestProj.pdb
+C:\Users\elija\OneDrive\Desktop\Coding Projects\Dungeon Crawler\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\elija\OneDrive\Desktop\Coding Projects\Dungeon Crawler\obj\Debug\net7.0\TestProj.csproj.AssemblyReference.cache
+C:\Users\elija\OneDrive\Desktop\Coding Projects\Dungeon Crawler\obj\Debug\net7.0\TestProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elija\OneDrive\Desktop\Coding Projects\Dungeon Crawler\obj\Debug\net7.0\TestProj.AssemblyInfoInputs.cache
+C:\Users\elija\OneDrive\Desktop\Coding Projects\Dungeon Crawler\obj\Debug\net7.0\TestProj.AssemblyInfo.cs
+C:\Users\elija\OneDrive\Desktop\Coding Projects\Dungeon Crawler\obj\Debug\net7.0\TestProj.csproj.CoreCompileInputs.cache
+C:\Users\elija\OneDrive\Desktop\Coding Projects\Dungeon Crawler\obj\Debug\net7.0\TestProj.csproj.CopyComplete
+C:\Users\elija\OneDrive\Desktop\Coding Projects\Dungeon Crawler\obj\Debug\net7.0\TestProj.dll
+C:\Users\elija\OneDrive\Desktop\Coding Projects\Dungeon Crawler\obj\Debug\net7.0\refint\TestProj.dll
+C:\Users\elija\OneDrive\Desktop\Coding Projects\Dungeon Crawler\obj\Debug\net7.0\TestProj.pdb
+C:\Users\elija\OneDrive\Desktop\Coding Projects\Dungeon Crawler\obj\Debug\net7.0\TestProj.genruntimeconfig.cache
+C:\Users\elija\OneDrive\Desktop\Coding Projects\Dungeon Crawler\obj\Debug\net7.0\ref\TestProj.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JOTixzFt1GlZWRTN/hSk3FigkktKZ2Iz9jiJFFQFL0qL7VMCezYr1nkOO9X+NGSkBqlUZmQfA4szwNPA/4Eixw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\elija\\OneDrive\\Desktop\\Coding Projects\\Dungeon Crawler\\TestProj.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\elija\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

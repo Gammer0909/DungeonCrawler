@@ -1,6 +1,7 @@
 import sys
 
 # Another tool, simply run this file with specified arguments and It will generate a JSON file for the level data :D
+# Usage: "python LevelJsonCreator.py <pathToLevel> <upfile> <downFile> <rightFile> <leftFile>"
 
 def main():
     if len(sys.argv) >= 5:

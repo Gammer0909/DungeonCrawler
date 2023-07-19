@@ -1,4 +1,4 @@
-# Simple python tool to make a template level that's 45x23, or the size of the Level screen
+# Simple python tool to make a template level that's 44x22, or the size of the Level screen
 
 f = open("TestLevel.txt", "w")
 

@@ -16,12 +16,9 @@ class TestProject {
 
         // Console Setup
         Console.CursorVisible = false;
-        Console.WindowHeight = 30;
-        Console.WindowWidth = 120;
-
         Console.Clear();
 
-        const string pathToUITemplate = "src\\UITemplate.txt";
+        const string pathToUITemplate = "Assets\\UITemplate.txt";
 
         UIRenderer uiRenderer = new UIRenderer(pathToUITemplate);
         uiRenderer.RenderUI();

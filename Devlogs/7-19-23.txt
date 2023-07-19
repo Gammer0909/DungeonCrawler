@@ -1,0 +1,11 @@
+7-19-23
+
+Today I worked on the following:
+
+- I wrote (Well Github copilot did, really) a python script to generate a LevelJson file to hold level data. (Man, I love scripting things!)
+- I moved some files around to make the project more organized.
+- I added a new class called LevelManager to handle loading and unloading levels. (WIP)
+
+I'm not sure if I'll be able to work on this tomorrow, but I'll try to get some work done on it.
+
+(Note, the list will get added to as I work on it today :D)

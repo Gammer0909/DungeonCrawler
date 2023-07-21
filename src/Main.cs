@@ -24,11 +24,13 @@ class TestProject {
 
         const string pathToUITemplate = "Assets\\Templates\\UITemplate.txt";
         LevelManager levelManager = new LevelManager(levelData);
-        for (int x = 0; x < LevelManager.levelWidth; x++) {
+        UIRenderer uiRenderer = new UIRenderer(pathToUITemplate, levelManager);
+        // Render the level using LevelManager.RenderLine() 
+        for (int i = 0; i < 45; i++) {
             levelManager.RenderLine();
             Console.WriteLine();
         }
-        // UIRenderer uiRenderer = new UIRenderer(pathToUITemplate, levelManager);
+
         // uiRenderer.RenderUI();
         Console.ReadKey(true);
 

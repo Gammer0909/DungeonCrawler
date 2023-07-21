@@ -43,11 +43,16 @@ class LevelManager {
 
     public void RenderLine() {
 
-        for (int i = 0; i < levelWidth; i++) {
-            Console.Write(this.levelData[i][levelLine]);
-        }
-        levelLine++;
+        string line;
 
+        for (int i = 0; i < levelHeight; i++) {
+            line = levelData[levelLine][i].ToString();
+            Console.Write(line);
+        }
+        if (levelLine <= levelHeight)
+            levelLine++;
+        if (levelLine == levelHeight)
+            levelLine = 0;
 
     }
 

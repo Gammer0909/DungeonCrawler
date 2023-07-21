@@ -10,7 +10,45 @@ namespace DungeonCrawler.Managers.Levels;
 class LevelManager {
 
     char[][] levelData;
-    const int levelWidth = 45;
-    const int levelHeight = 23;
+    public const int levelWidth = 22;
+    public const int levelHeight = 44;
+    int levelLine = 0;
+
+    public LevelManager(LevelData levelData) {
+        this.levelData = new char[levelWidth][];
+        LoadLevel(levelData);
+    }
+
+    public void LoadLevel(string pathToLevel) {
+            
+            string[] levelData = File.ReadAllLines(pathToLevel);
+            this.levelData = levelData.Select(line => line.ToCharArray()).ToArray();
+    }
+
+    public void LoadLevel(LevelData levelData) {
+        string pathToLevel = levelData.pathToTextFile;
+        LoadLevel(pathToLevel);
+    }
+
+    public void RenderLevel() {
+
+        for (int x = 0; x < levelData.Length; x++) {
+            for (int y = 0; y < levelData[x].Length; y++) {
+                Console.Write(levelData[x][y]); // Just write these for now, I'll implement the Color Renderer later :p
+            }
+            Console.WriteLine();
+        }
+
+    }
+
+    public void RenderLine() {
+
+        for (int i = 0; i < levelWidth; i++) {
+            Console.Write(this.levelData[i][levelLine]);
+        }
+        levelLine++;
+
+
+    }
 
 }

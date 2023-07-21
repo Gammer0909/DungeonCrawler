@@ -5,6 +5,10 @@ import sys
 
 def main():
     if len(sys.argv) >= 5:
+            # check if any of the files are called null; so we can write null to the json file
+            for i in range(1, len(sys.argv)):
+                if sys.argv[i] == "null":
+                    sys.argv[i] = "null"
             pathToLevel = sys.argv[1]
             upFile = sys.argv[2]
             downFile = sys.argv[3]
@@ -12,7 +16,7 @@ def main():
             leftFile = sys.argv[5]
             file = open("LevelData.json", "w")
             file.write("{\n")
-            file.write("\t\"pathToLevel\": \"" + pathToLevel + "\",\n")
+            file.write("\t\"pathToTextFile\": \"" + pathToLevel + "\",\n")
             file.write("\t\"upFile\": \"" + upFile + "\",\n")
             file.write("\t\"downFile\": \"" + downFile + "\",\n")
             file.write("\t\"rightFile\": \"" + rightFile + "\",\n")

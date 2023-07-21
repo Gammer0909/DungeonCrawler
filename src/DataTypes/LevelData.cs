@@ -4,7 +4,7 @@ using DungeonCrawler.Managers.Graphics;
 using DungeonCrawler.Managers.UI;
 using Newtonsoft.Json;
 
-namespace DungeonCrawler.Managers.Levels;
+namespace DungeonCrawler.DataTypes;
 
 class LevelData {
 

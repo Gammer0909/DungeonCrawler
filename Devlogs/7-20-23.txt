@@ -1,0 +1,6 @@
+Devlog from 7-20-23 @ 11:32 PM cause I hate myself for some reason
+
+- I worked on UI rendering and rendering the level chunk
+- I tweaked the Python script to generate the level chunk
+- File structure is now a bit more organized (I think so anyway :p)
+- I changed my VS Code insiders font to Jetbrains Mono :D (I like it a lot)

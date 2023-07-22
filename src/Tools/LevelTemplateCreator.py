@@ -1,34 +1,27 @@
-# Simple python tool to make a template level that's 44x22, or the size of the Level screen
 
+import sys
 f = open("TestLevel.txt", "w")
+#checks count of arguments if 2 use arguments provided and if 0 its default 44 22 and if provided 1 or more than 2 than it returns error
+if(len(sys.argv) == 0):
+    x = 44
+    y = 22
 
-f.write("*********************************************")
+    for i in range(y):
+        f.write("*"*x+"\n")
+elif(len(sys.argv) == 3):
+    try:
+        x = int(sys.argv[1])
+        y = int(sys.argv[2])
+    except TypeError:
+        print("inserted arguments are as a decimal number or some other unsupported data-type")
 
-for i in range(22):
-    f.write("*")
-    for j in range(44):
-        f.write(" ")
-    f.write("*\n")
+    for i in range(y):
+        f.write("*"*x+"\n")
+else:
+    print("Error: Too much or too less arguments")
 
-f.write("*********************************************")
+
+
 
 f.close()
 
-# Gosh i hate python
-'''
-No Semicolons?
-⣷⣾⣷⢏⢐⡢⣗⡻⣔⠲⣜⢢⣓⠳⣝⢫⠖⣮⠳⣜⢦⡳⣖⢮⡓⣆⢻⡰⡹⣌
-⣿⣿⡟⣦⢫⠷⣭⣻⣭⢳⢌⢣⢎⡳⢬⡓⢮⡐⣩⠘⢎⡳⡹⢎⠵⣘⢢⢳⡱⢸
-⣿⣿⣿⣼⣯⣿⣿⣿⢏⡿⣮⣇⢮⡱⢧⡛⡦⡝⡴⣈⠆⡅⠓⡌⢒⡡⢎⡣⢦⣿
-⣿⣿⣿⣿⡿⣟⠿⣜⠯⣞⡽⣻⣿⣿⣷⣿⣷⣿⣶⣝⢮⡐⠃⠌⢢⣕⢫⢴⣾⣿
-⣿⣿⣿⣿⣷⣫⣟⣮⢿⣜⡳⣽⢮⡽⣻⢿⡿⣿⣿⣿⣷⡑⠂⢌⡳⣎⣷⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⡾⢿⣿⣾⢱⡿⣾⣹⣷⢿⣾⡹⣏⡿⣿⣇⠈⣸⣷⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⡇⣼⣿⣿⣹⣟⣷⡿⢿⣿⣿⣿⣮⣽⣻⠆⣸⣽⣯⣽⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⢻⣿⣿⠟⣼⢯⣿⡁⣾⣿⣿⡿⣿⠓⠏⣠⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⢣⡝⢤⣺⢯⡿⣿⣷⣾⣿⣿⣞⠃⠀⢀⣽⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⢏⠰⣎⡟⣯⠿⣵⢯⣻⡽⣳⣜⢦⣖⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⡏⢢⠙⠀⠈⠠⢛⢭⣟⣷⣻⡽⣎⢓⣯⣿⣿⣿⣿⣿⣯⣿⣿⣿⣿
-⣿⣿⣿⣿⡿⠀⠃⠀⠀⠀⣀⣛⣼⣿⡼⣧⠻⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣶⣥⢀⣀⡠⠖⠉⠌⠓⣯⢿⡌⢃⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣯⣿⣷⣞⣒⡒⢦⣸⡟⣌⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-'''

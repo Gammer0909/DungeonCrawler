@@ -18,6 +18,7 @@ class TestProject {
 
         // Console Setup
         Console.CursorVisible = false;
+        Console.Title = "Dungeon Crawler";
         Console.Clear();
         LevelData levelData = JsonConvert.DeserializeObject<LevelData>(File.ReadAllText("Assets\\Scenes\\TestScene\\Levels\\TestLevel\\TestLevelData.json"));
         

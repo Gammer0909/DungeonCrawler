@@ -25,12 +25,12 @@ class UIRenderer {
     }
 
     /// <summary>Renders the UI.</summary>
-    public void RenderUI() {
+    public async void RenderUI() {
 
         for (int x = 0; x < uiTemplate.Length; x++) {
             for (int y = 0; y < uiTemplate[x].Length; y++) {
                 if (x >= 7 && x <= 29 && y == 15) {
-                    Console.Write(uiTemplate[x][y]);
+                    await ColorRenderer.DecodeAndRenderCharAsync(uiTemplate[x][y]);
                     levelManager.RenderLine();
                     continue;
                 }

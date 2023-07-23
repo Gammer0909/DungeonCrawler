@@ -45,7 +45,9 @@ class LevelManager {
     public void RenderLine() {
 
         string line = new string(levelData[levelLine]);
-        Console.Write(line);
+        foreach (char c in line) {
+            ColorRenderer.DecodeAndRenderChar(c);
+        }
         if (levelLine < levelData.Length - 1) {
             levelLine++;
         }

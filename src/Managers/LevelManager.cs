@@ -23,6 +23,7 @@ class LevelManager {
             
             string[] levelData = File.ReadAllLines(pathToLevel);
             this.levelData = levelData.Select(line => line.ToCharArray()).ToArray();
+            levelLine = 0;
     }
 
     public void LoadLevel(LevelData levelData) {
@@ -43,17 +44,11 @@ class LevelManager {
 
     public void RenderLine() {
 
-        string line;
-
-        for (int i = 0; i < levelHeight; i++) {
-            line = levelData[levelLine][i].ToString();
-            Console.Write(line);
-        }
-        if (levelLine <= levelHeight)
+        string line = new string(levelData[levelLine]);
+        Console.Write(line);
+        if (levelLine < levelData.Length - 1) {
             levelLine++;
-        if (levelLine == levelHeight)
-            levelLine = 0;
-
+        }
     }
 
 }

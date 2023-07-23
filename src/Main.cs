@@ -25,13 +25,8 @@ class TestProject {
         const string pathToUITemplate = "Assets\\Templates\\UITemplate.txt";
         LevelManager levelManager = new LevelManager(levelData);
         UIRenderer uiRenderer = new UIRenderer(pathToUITemplate, levelManager);
-        // Render the level using LevelManager.RenderLine() 
-        for (int i = 0; i < 45; i++) {
-            levelManager.RenderLine();
-            Console.WriteLine();
-        }
 
-        // uiRenderer.RenderUI();
+        uiRenderer.RenderUI();
         Console.ReadKey(true);
 
     }

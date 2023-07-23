@@ -24,12 +24,15 @@ class UIRenderer {
         this.levelManager = levelManager;
     }
 
+    /// <summary>Renders the UI.</summary>
     public void RenderUI() {
 
         for (int x = 0; x < uiTemplate.Length; x++) {
             for (int y = 0; y < uiTemplate[x].Length; y++) {
-                if (y >= 7 && y <= 29 && x == 15) {
+                if (x >= 7 && x <= 29 && y == 15) {
+                    Console.Write(uiTemplate[x][y]);
                     levelManager.RenderLine();
+                    continue;
                 }
                 Console.Write(uiTemplate[x][y]); // Just write these for now, I'll implement the Color Renderer later :p
             }

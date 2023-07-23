@@ -1,0 +1,8 @@
+Devlog from 7-22-23 @ 7:06 PM
+
+- Edited LevelTemplateCreator.py to take arguments for level size (Thanks @mrtineu!) and To change the Level name.
+- Edited LevelJsonCreator.py to take arguments for the filename.
+- Fixed the LevelManager.RenderLine() method, so it works now.
+- Made the Level Render on the UI!!!!!!
+
+Todo: Work on color renderer tomorrow.

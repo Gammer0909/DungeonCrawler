@@ -24,7 +24,7 @@ These are also known as [Text-Based Games](https://en.wikipedia.org/wiki/Text-ba
 
 ## Is it runnable?
 
-Right now, the project is **not** runnable.
+Right now, the project is **not** runnable. (Note, however, It is "runnable" but there is no playable game yet)
 
 I am working as hard as I can to make it runnable, but it's not runnable yet.
 

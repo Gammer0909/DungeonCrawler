@@ -1,0 +1,7 @@
+Devlog from 7-20-23 @ 5:59 PM
+
+- I added the color renderer! It works!
+- The project is still not runnable
+- Some fixing on the UIRenderer
+
+Plans to start working on the game soon, just gotta test some more things!

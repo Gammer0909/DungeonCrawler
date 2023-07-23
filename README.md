@@ -13,7 +13,7 @@ Follow and star this repo to keep up with the development
 
 ## How can I follow the development of this game?
 
-As stated above, you can Follow me (Gammer0909), Star and watch this repo, as well as reading my (short) devlogs at `DungeonCrawler/Devlogs/`
+As stated above, you can Follow me (Gammer0909), Star and watch this repo, as well as reading my (short) devlogs at [`DungeonCrawler/Devlogs/`](https://github.com/Gammer0909/DungeonCrawler/tree/main/Devlogs) 
 
 ## What is this?
 

@@ -30,6 +30,8 @@ class TestProject {
         uiRenderer.RenderUI();
         Console.ReadKey(true);
 
+        DialogueManager.RunDialogue(new NPC("Assets\\Scenes\\TestScene\\Levels\\TestLevel\\NPCs\\TestNPC\\Dialogue.txt"));
+
     }
 
 }

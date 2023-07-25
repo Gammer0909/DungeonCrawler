@@ -1,0 +1,6 @@
+Devlog from 7-24-23 @ 8:42 PM
+
+- I worked on the Dialouge Writer, it works, but breaks if you add more dialouge than the screen can hold (It cannot wrap text yet Sadly)
+- Changed the NPC structure to be included in a Scene
+
+Hopefully i'll get some work done tomorrow, I've been trying to commit at least once every day.

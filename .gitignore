@@ -1,0 +1,4 @@
+# ignore the obj and bin folders
+# ignore the .git folder
+obj/*
+bin/*

@@ -22,16 +22,11 @@ static class DialogueManager {
                 int dialougeLine = 1;
                 for (int i = 0; i < line.Length; i++) {
 
-                    if (i == dialogueBoxWidth && dialougeLine <= 3) {
-                        Console.SetCursorPosition(16, 23 + dialougeLine);
+                    if (i % dialogueBoxWidth == 0 && i != 0) {
                         dialougeLine++;
-                    } else {
-
-                        DeleteDialogue();
-                        dialougeLine = 1;
-
+                        Console.SetCursorPosition(16, 23 + dialougeLine);
                     }
-                    Console.Write(line[i]);
+                    Draw.String(ConsoleColor.White, ConsoleColor.Black, line[i].ToString(), 50);
 
                 }
 

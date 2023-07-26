@@ -1,0 +1,4 @@
+7-25-23 @ 7:23 PM
+
+- I worked on the DialogueManager again, still not working I'm closer though!
+

@@ -1,0 +1,11 @@
+7-27-23 @ 3:22 PM
+
+- FINALLY! I finally debugged the DialogueManager! It (kinda) works now but the solution is a hacky one. I'll probably fix it later when I need to
+- Added some things to the README
+
+Planned for Tomorrow:
+
+- Work on NPC faces
+- Work on the DialogueManager
+- Make a simple "playable" game where the player can move around the level
+- Finish the UI so it renders how I want it to

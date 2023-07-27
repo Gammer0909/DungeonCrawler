@@ -23,8 +23,13 @@ static class DialogueManager {
                 for (int i = 0; i < line.Length; i++) {
 
                     if (i % dialogueBoxWidth == 0 && i != 0) {
-                        dialougeLine++;
                         Console.SetCursorPosition(16, 23 + dialougeLine);
+                        dialougeLine++;
+                    } else if (dialougeLine == 3) {
+
+                        DeleteDialogue();
+                        dialougeLine = 1;
+
                     }
                     Draw.String(ConsoleColor.White, ConsoleColor.Black, line[i].ToString(), 50);
 

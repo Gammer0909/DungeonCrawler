@@ -9,6 +9,28 @@ However, this one is in the console, with Unicode and ASCII characters instead o
 Follow and star this repo to keep up with the development
 
 
+# Current Features
+
+- [ ] Basic Game Loop
+- [x] Basic Game Rendering
+- [ ] Basic Game Input
+- [ ] Basic Game Logic
+- [ ] Basic Game Menus
+- [ ] Basic Game Saving
+- [ ] Basic Game Loading
+- [ ] Basic Game Inventory
+- [ ] Basic Game Combat
+- [ ] Basic Game Enemies
+- [ ] Basic Game Items
+- [ ] Basic Game Weapons
+- [ ] Basic Game Armor
+- [ ] Basic Game Bosses
+- [x] Basic Game Levels
+- [x] Color Rendering
+- [ ] Simple animations (Awating game UI Support)
+- [x] Basic Game UI
+
+
 # FAQ (I hope)
 
 ## How can I follow the development of this game?

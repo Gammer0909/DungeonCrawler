@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DungeonCrawler.Managers.Graphics;
 
-// Simple Class to Draw things on the screen
+/// <summary>Class for drawing to the console</summary>
 static class Draw {
 
 

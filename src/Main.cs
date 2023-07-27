@@ -31,6 +31,7 @@ class TestProject {
         Console.ReadKey(true);
 
         DialogueManager.RunDialogue(new NPC("Assets\\Scenes\\TestScene\\Levels\\TestLevel\\NPCs\\TestNPC\\Dialogue.txt"));
+        Console.ReadKey(true);
 
     }
 

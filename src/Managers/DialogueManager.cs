@@ -17,27 +17,18 @@ static class DialogueManager {
 
         // Do this for now, as I don't have a UI system in place yet where the dialogue would be displayed.
         foreach (string line in dialogue) {
-            DeleteDialogue();
+            
+            Console.SetCursorPosition(16, 23);
             if (line.Length >= dialogueBoxWidth) {
-                int dialougeLine = 1;
-                for (int i = 0; i < line.Length; i++) {
-
-                    if (i % dialogueBoxWidth == 0 && i != 0) {
-                        Console.SetCursorPosition(16, 23 + dialougeLine);
-                        dialougeLine++;
-                    } else if (dialougeLine == 3) {
-
-                        DeleteDialogue();
-                        dialougeLine = 1;
-
-                    }
-                    Draw.String(ConsoleColor.White, ConsoleColor.Black, line[i].ToString(), 50);
-
-                }
-
+                Draw.String(ConsoleColor.White, ConsoleColor.Black, line.Substring(0, dialogueBoxWidth), 50);
+                Console.SetCursorPosition(16, 24);
+                Draw.String(ConsoleColor.White, ConsoleColor.Black, line.Substring(dialogueBoxWidth, line.Length - dialogueBoxWidth), 50);
+            } else {
+                Draw.String(ConsoleColor.White, ConsoleColor.Black, line, 50);
             }
-            Draw.String(ConsoleColor.White, ConsoleColor.Black, line, 50);
             Console.ReadKey(true);
+            DeleteDialogue();
+
         }
 
     }

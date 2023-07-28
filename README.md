@@ -13,19 +13,7 @@ Follow and star this repo to keep up with the development
 
 - [ ] Basic Game Loop
 - [x] Basic Game Rendering
-- [ ] Basic Game Input
-- [ ] Basic Game Logic
-- [ ] Basic Game Menus
-- [ ] Basic Game Saving
-- [ ] Basic Game Loading
-- [ ] Basic Game Inventory
-- [ ] Basic Game Combat
-- [ ] Basic Game Enemies
-- [ ] Basic Game Items
-- [ ] Basic Game Weapons
-- [ ] Basic Game Armor
-- [ ] Basic Game Bosses
-- [x] Basic Game Levels
+- [ ] Basic Gameplay
 - [x] Color Rendering
 - [ ] Simple animations (Awating game UI Support)
 - [x] Basic Game UI

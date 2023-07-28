@@ -31,11 +31,11 @@ class LevelManager {
         LoadLevel(pathToLevel);
     }
 
-    public void RenderLevel() {
+    public async Task RenderLevel() {
 
         for (int x = 0; x < levelData.Length; x++) {
             for (int y = 0; y < levelData[x].Length; y++) {
-                Console.Write(levelData[x][y]); // Just write these for now, I'll implement the Color Renderer later :p
+                await ColorRenderer.DecodeAndRenderCharAsync(levelData[x][y]); // Just write these for now, I'll implement the Color Renderer later :p
             }
             Console.WriteLine();
         }

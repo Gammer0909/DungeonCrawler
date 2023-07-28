@@ -5,7 +5,7 @@
 
 Planned for Tomorrow:
 
-- Work on NPC faces
+- Work on NPC face renderer
 - Work on the DialogueManager
 - Make a simple "playable" game where the player can move around the level
 - Finish the UI so it renders how I want it to

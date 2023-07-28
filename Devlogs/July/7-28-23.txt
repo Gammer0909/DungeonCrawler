@@ -1,0 +1,10 @@
+7-28-23 @ 4:21 PM 
+
+- I made the UI render in color, then played with it until I liked it.
+- Updated readme to seem less daunting
+- Added a few more comments to the code
+
+Still got to do these things:
+- Work on NPC face renderer
+- Work on the DialogueManager
+- Make a simple "playable" game where the player can move around the level and talk to NPCs

@@ -10,29 +10,44 @@ using DungeonCrawler.DataTypes;
 using DungeonCrawler.Managers.Levels;
 
 
+namespace DungeonCrawler.Main;
+
+class DungeonCrawlerGame : Game {
 
 
-class TestProject {
 
     public static void Main(string[] args) {
 
-        // Console Setup
-        Console.CursorVisible = false;
-        Console.Title = "Dungeon Crawler";
-        Console.Clear();
-        LevelData levelData = JsonConvert.DeserializeObject<LevelData>(File.ReadAllText("Assets\\Scenes\\TestScene\\Levels\\TestLevel\\TestLevelData.json"));
-        
-
-        const string pathToUITemplate = "Assets\\Templates\\UITemplate.txt";
-        LevelManager levelManager = new LevelManager(levelData);
-        UIRenderer uiRenderer = new UIRenderer(pathToUITemplate, levelManager);
-
-        uiRenderer.RenderUI();
-        Console.ReadKey(true);
-
-        DialogueManager.RunDialogue(new NPC("Assets\\Scenes\\TestScene\\Levels\\TestLevel\\NPCs\\TestNPC\\Dialogue.txt"));
-        Console.ReadKey(true);
+       var game = new DungeonCrawlerGame();
+       game.Start();
 
     }
 
+    public DungeonCrawlerGame(string ) : base() {
+
+        this.level = new LevelData();
+
+    }
+
+    public override void End()
+    {
+        throw new NotImplementedException();
+    }
+
+    public override void Render()
+    {
+        throw new NotImplementedException();
+    }
+
+    public override void Start()
+    {
+        
+
+
+    }
+
+    public override void Update()
+    {
+        throw new NotImplementedException();
+    }
 }

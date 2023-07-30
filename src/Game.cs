@@ -7,9 +7,9 @@ using DungeonCrawler.Managers.Levels;
 
 abstract class Game {
     
-    protected UIRenderer ui;
-    protected LevelData level;
-    protected LevelManager levelRenderer;
+    protected UIRenderer? ui;
+    protected LevelData? level;
+    protected LevelManager? levelRenderer;
 
     public abstract void Start();
     public abstract void Update();

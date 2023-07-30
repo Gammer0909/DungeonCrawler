@@ -9,7 +9,7 @@ static class Logger {
 
     /// <param name="message">The message to write in the crash log</param>
     /// <param name="errorCode">The error code that goes with the crash log</param>
-    /// <summary>Writes a log for a game crash message</summary>
+    /// <summary>Writes a log for a game crash message, inferring the crash message from the error code</summary>
     public static void Crash(string[] message, int errorCode) {
 
         using (StreamWriter sw = new StreamWriter("Logs//crash-log-errorcode-" + errorCode + ".log", false, Encoding.ASCII)) {
@@ -109,6 +109,30 @@ static class Logger {
         }
 
         Environment.Exit(errorCode);
+
+    }
+
+    public static void Warning(string message, string filePath, bool exists) {
+
+        if (exists) {
+
+            // Write to the existing path
+            using (StreamWriter sw = new StreamWriter(filePath, true, Encoding.ASCII)) {
+
+                sw.Write(message);
+
+            }
+
+        } else {
+
+            // Create the file and write to it
+            using (StreamWriter sw = new StreamWriter(filePath, false, Encoding.ASCII)) {
+
+                sw.Write(message);
+
+            }
+
+        }
 
     }
 

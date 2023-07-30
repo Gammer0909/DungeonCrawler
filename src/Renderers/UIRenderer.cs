@@ -35,7 +35,7 @@ class UIRenderer {
                     continue;
                 }
                 
-                await ColorRenderer.DecodeAndRenderCharAsync(uiTemplate[x][y]); // Just write these for now, I'll implement the Color Renderer later :p
+                await ColorRenderer.DecodeAndRenderCharAsync(uiTemplate[x][y]);
             }
             Console.WriteLine();
         }

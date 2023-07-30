@@ -53,4 +53,8 @@ class LevelManager {
         }
     }
 
+    public void ResetLevel() {
+        levelLine = 0;
+    }
+
 }

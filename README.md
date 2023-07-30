@@ -11,7 +11,7 @@ Follow and star this repo to keep up with the development
 
 # Current Features
 
-- [ ] Basic Game Loop
+- [x] Basic Game Loop
 - [x] Basic Game Rendering
 - [ ] Basic Gameplay
 - [x] Color Rendering

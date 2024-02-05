@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elija\\OneDrive\\Desktop\\Coding Projects\\Dungeon Crawler\\TestProj.csproj": {}
+    "/Users/kalliegarzon/Documents/DungeonCrawler/TestProj.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elija\\OneDrive\\Desktop\\Coding Projects\\Dungeon Crawler\\TestProj.csproj": {
+    "/Users/kalliegarzon/Documents/DungeonCrawler/TestProj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elija\\OneDrive\\Desktop\\Coding Projects\\Dungeon Crawler\\TestProj.csproj",
+        "projectUniqueName": "/Users/kalliegarzon/Documents/DungeonCrawler/TestProj.csproj",
         "projectName": "TestProj",
-        "projectPath": "C:\\Users\\elija\\OneDrive\\Desktop\\Coding Projects\\Dungeon Crawler\\TestProj.csproj",
-        "packagesPath": "C:\\Users\\elija\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elija\\OneDrive\\Desktop\\Coding Projects\\Dungeon Crawler\\obj\\",
+        "projectPath": "/Users/kalliegarzon/Documents/DungeonCrawler/TestProj.csproj",
+        "packagesPath": "/Users/kalliegarzon/.nuget/packages/",
+        "outputPath": "/Users/kalliegarzon/Documents/DungeonCrawler/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\elija\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/kalliegarzon/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,6 +41,14 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Spectre.Console": {
+              "target": "Package",
+              "version": "[0.48.0, )"
+            },
+            "Spectre.Console.Cli": {
+              "target": "Package",
+              "version": "[0.48.0, )"
             }
           },
           "imports": [
@@ -66,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     }

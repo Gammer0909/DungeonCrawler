@@ -50,3 +50,7 @@ C:/Users/elija/OneDrive/Desktop/Coding Projects/Dungeon Crawler/obj/Debug/net7.0
 /Users/kalliegarzon/Documents/DungeonCrawler/obj/Debug/net7.0/TestProj.pdb
 /Users/kalliegarzon/Documents/DungeonCrawler/obj/Debug/net7.0/TestProj.genruntimeconfig.cache
 /Users/kalliegarzon/Documents/DungeonCrawler/obj/Debug/net7.0/ref/TestProj.dll
+/Users/kalliegarzon/Documents/DungeonCrawler/bin/Debug/net7.0/Spectre.Console.Cli.dll
+/Users/kalliegarzon/Documents/DungeonCrawler/bin/Debug/net7.0/de/Spectre.Console.Cli.resources.dll
+/Users/kalliegarzon/Documents/DungeonCrawler/bin/Debug/net7.0/fr/Spectre.Console.Cli.resources.dll
+/Users/kalliegarzon/Documents/DungeonCrawler/bin/Debug/net7.0/sv/Spectre.Console.Cli.resources.dll
